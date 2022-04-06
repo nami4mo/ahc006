@@ -107,7 +107,7 @@ fn make_0_49_greedy_ans(orders: &Vec<Order>) -> (Vec<usize>, Vec<Point>) {
     (ans_ids, ans_points)
 }
 
-// スコア計算用の関数（スコアが合う以外はテストしてないです）
+// スコア計算用の関数（スコアが合う以外はちゃんとテストしてないです）
 // 必要に応じて、ブラックボックスとして使用してください。
 fn calc_score(orders: &Vec<Order>, ans_order_ids: &Vec<usize>, ans_points: &Vec<Point>) -> u32 {
     if ans_points.is_empty() {
